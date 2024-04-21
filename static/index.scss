@@ -45,6 +45,11 @@ body {
             mask: linear-gradient(0, transparent -30%, white 100%);
             -webkit-mask: linear-gradient(0, transparent -30%, white 100%);
 
+            img {
+                width: 50px;
+                filter: invert(1);
+            }
+
             button {
                 border: 1px solid transparent;
                 border-radius: 5px;

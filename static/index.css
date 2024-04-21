@@ -45,6 +45,10 @@ body .fullContent .header {
   mask: linear-gradient(0, transparent -30%, white 100%);
   -webkit-mask: linear-gradient(0, transparent -30%, white 100%);
 }
+body .fullContent .header img {
+  width: 50px;
+  filter: invert(1);
+}
 body .fullContent .header button {
   border: 1px solid transparent;
   border-radius: 5px;
